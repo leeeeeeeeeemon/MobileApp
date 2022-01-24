@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.Reg">
+    <NavigationPage.TitleView>
+        <Label Text="Registration" FontSize="Large" TextColor="White"  Margin="75,0"></Label>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <Grid BackgroundColor="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="140"></RowDefinition>
+                <RowDefinition Height="90"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="80"></RowDefinition>
+                <RowDefinition Height="90"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackLayout>
+                <StackLayout Margin="30,40,30,0">
+                    <Label Text="Email" TextColor="black"></Label>
+                    <Frame  Grid.Row="0" Margin="0,0,0,30"
+                    Padding="0"
+                    BorderColor="Black">
+                        <Entry x:Name="txt_email" TextColor="Black"/>
+                    </Frame>
+                    
+                    <Label Text="Login" TextColor="black"></Label>
+                    <Frame  Grid.Row="1" Margin="0,0,0,30"
+                    Padding="0"
+                    BorderColor="Black">
+                        <Entry x:Name="txt_login" TextColor="Black"/>
+                    </Frame>
+
+                    <Label Text="Password" TextColor="black"></Label>
+                    <Frame  Grid.Row="2" Margin="0,0,0,30"
+                    Padding="0"
+                    BorderColor="Black">
+                        <Entry x:Name="txt_password" IsPassword ="True" TextColor="Black"/>
+                    </Frame>
+
+                    <Label Text="Confrim password" TextColor="black"></Label>
+                    <Frame  Grid.Row="3" Margin="0,0,0,30"
+                    Padding="0"
+                    BorderColor="Black">
+                        <Entry x:Name="txt_password2" IsPassword ="True" TextColor="Black"/>
+                    </Frame>
+
+                </StackLayout>
+                <StackLayout Grid.Row="4" Margin="0,0,0,30">
+                    <Button Text="Registration" Clicked="Button_Clicked" HorizontalOptions="Center"></Button>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+      
+    </ContentPage.Content>
+</ContentPage>

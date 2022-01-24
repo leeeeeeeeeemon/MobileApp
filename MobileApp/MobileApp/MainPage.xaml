@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileApp.MainPage">
+
+    <StackLayout BackgroundColor="White" >
+
+        <StackLayout BackgroundColor="White">
+            <Image Source="image.jpg" Margin="30"/>
+            <StackLayout Margin="40,0,40,30">
+                <Label Text="Login"  TextColor="black"></Label>
+                <Frame
+                    Padding="0"
+                    BorderColor="Black">
+                    <Entry x:Name="txt_login" TextColor="Black" />
+                </Frame>
+            </StackLayout>
+            <StackLayout Margin="40,0,40,30">
+                <Label Text="Password" TextColor="black"></Label>
+                <Frame
+                    Padding="0"
+                    BorderColor="Black">
+                    <Entry x:Name="txt_password" IsPassword ="True" TextColor="Black"/>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button Text="Registration" Clicked="Button_Registr_Clicked"></Button>
+            <Button Text="Confrim" Clicked="Button_Login_Clicked"></Button>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
