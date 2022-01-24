@@ -11,16 +11,16 @@
                 <Label Text="Login"  TextColor="black"></Label>
                 <Frame
                     Padding="0"
-                    BorderColor="Black">
-                    <Entry x:Name="txt_login" TextColor="Black" />
+                    BorderColor="LightGray">
+                    <Entry x:Name="txt_login" TextColor="LightGray" />
                 </Frame>
             </StackLayout>
             <StackLayout Margin="40,0,40,30">
-                <Label Text="Password" TextColor="black"></Label>
+                <Label Text="Password" TextColor="LightGray"></Label>
                 <Frame
                     Padding="0"
-                    BorderColor="Black">
-                    <Entry x:Name="txt_password" IsPassword ="True" TextColor="Black"/>
+                    BorderColor="LightGray">
+                    <Entry x:Name="txt_password" IsPassword ="True" TextColor="LightGray"/>
                 </Frame>
             </StackLayout>
         </StackLayout>

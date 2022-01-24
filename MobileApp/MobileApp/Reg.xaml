@@ -16,32 +16,32 @@
             </Grid.RowDefinitions>
             <StackLayout>
                 <StackLayout Margin="30,40,30,0">
-                    <Label Text="Email" TextColor="black"></Label>
+                    <Label Text="Email" TextColor="LightGray"></Label>
                     <Frame  Grid.Row="0" Margin="0,0,0,30"
                     Padding="0"
-                    BorderColor="Black">
-                        <Entry x:Name="txt_email" TextColor="Black"/>
+                    BorderColor="LightGray">
+                        <Entry x:Name="txt_email" TextColor="LightGray"/>
                     </Frame>
-                    
-                    <Label Text="Login" TextColor="black"></Label>
+
+                    <Label Text="Login" TextColor="LightGray"></Label>
                     <Frame  Grid.Row="1" Margin="0,0,0,30"
                     Padding="0"
-                    BorderColor="Black">
-                        <Entry x:Name="txt_login" TextColor="Black"/>
+                    BorderColor="LightGray">
+                        <Entry x:Name="txt_login" TextColor="LightGray"/>
                     </Frame>
 
-                    <Label Text="Password" TextColor="black"></Label>
+                    <Label Text="Password" TextColor="LightGray"></Label>
                     <Frame  Grid.Row="2" Margin="0,0,0,30"
                     Padding="0"
-                    BorderColor="Black">
-                        <Entry x:Name="txt_password" IsPassword ="True" TextColor="Black"/>
+                    BorderColor="LightGray">
+                        <Entry x:Name="txt_password" IsPassword ="True" TextColor="LightGray"/>
                     </Frame>
 
-                    <Label Text="Confrim password" TextColor="black"></Label>
+                    <Label Text="Confrim password" TextColor="LightGray"></Label>
                     <Frame  Grid.Row="3" Margin="0,0,0,30"
                     Padding="0"
-                    BorderColor="Black">
-                        <Entry x:Name="txt_password2" IsPassword ="True" TextColor="Black"/>
+                    BorderColor="LightGray">
+                        <Entry x:Name="txt_password2" IsPassword ="True" TextColor="LightGray"/>
                     </Frame>
 
                 </StackLayout>

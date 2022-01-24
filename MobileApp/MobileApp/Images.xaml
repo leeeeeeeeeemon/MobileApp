@@ -17,7 +17,7 @@
         </Grid.RowDefinitions>
         <StackLayout >
             <StackLayout Orientation="Horizontal">
-                <Image Source="project.jpg" Grid.Column="0" Grid.Row="0"  WidthRequest="200"></Image>
+                <Image Grid.Column="0" Grid.Row="0"  WidthRequest="200" Source="project.jpg"/>
                 <Image Source="project.jpg" Grid.Column="0" Grid.Row="1"  WidthRequest="200"></Image>
             </StackLayout>
             

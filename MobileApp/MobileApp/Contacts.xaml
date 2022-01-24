@@ -6,38 +6,38 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="White">
             <StackLayout Margin="40,30,40,30">
-                <Label Text="Number" TextColor="black"></Label>
+                <Label Text="Number" TextColor="LightGray"></Label>
                 <Frame 
                     Padding="0"
                     BorderColor="Black" >
-                    <Entry x:Name="txt_phone" Keyboard="Telephone" TextColor="Black"/>
+                    <Entry x:Name="txt_phone" Keyboard="Telephone" TextColor="LightGray"/>
                 </Frame>
             </StackLayout>
 
             <StackLayout Margin="40,0,40,30">
-                <Label Text="Number" TextColor="black"></Label>
+                <Label Text="Number" TextColor="LightGray"></Label>
                 <Frame
                     Padding="0"
                     BorderColor="Black">
-                    <Entry x:Name="txt_phone2" Keyboard="Telephone" TextColor="Black"/>
+                    <Entry x:Name="txt_phone2" Keyboard="Telephone" TextColor="LightGray"/>
                 </Frame>
             </StackLayout>
 
             <StackLayout Margin="40,0,40,30">
-                <Label Text="Email" TextColor="black"></Label>
+                <Label Text="Email" TextColor="LightGray"></Label>
                 <Frame
                     Padding="0"
                     BorderColor="Black">
-                    <Entry x:Name="txt_email" TextColor="Black"/>
+                    <Entry x:Name="txt_email" TextColor="LightGray"/>
                 </Frame>
             </StackLayout>
 
             <StackLayout Margin="40,0,40,30">
-                <Label Text="Адрес" TextColor="black"></Label>
+                <Label Text="Адрес" TextColor="LightGray"></Label>
                 <Frame
                     Padding="0"
-                    BorderColor="Black">
-                    <Entry x:Name="txt_address" TextColor="Black"/>
+                    BorderColor="LightGray">
+                    <Entry x:Name="txt_address" TextColor="LightGray"/>
                 </Frame>
             </StackLayout>
           
